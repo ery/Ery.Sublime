@@ -7,7 +7,7 @@
 
   //CTags
   { "keys": ["ctrl+alt+]"], "command": "navigate_to_definition" },
-  { "keys": ["ctrl+alt+["], "command": "jump_back" },
+  { "keys": ["ctrl+alt+["], "command": "jump_prev" },
 
   //Find
   { "keys": ["f4"], "command": "next_result" },
