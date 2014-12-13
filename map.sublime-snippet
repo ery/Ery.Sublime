@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[map |${1:item}|
+  ${1:item} $0
+end]]></content>
+    <tabTrigger>map do</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>map do |item| … end</description>
+</snippet>
