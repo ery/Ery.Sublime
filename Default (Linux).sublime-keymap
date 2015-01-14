@@ -33,6 +33,12 @@
   { "keys": ["ctrl+alt+end"],      "command": "move_tab", "args": { "position": "999" } },
   { "keys": ["ctrl+alt+home"],     "command": "move_tab", "args": { "position": "0"   } },
 
+  //Case
+  { "keys": ["ctrl+k", "ctrl+u"], "command": "upper_case" },
+  { "keys": ["ctrl+k", "ctrl+l"], "command": "lower_case" },
+  { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
+  { "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
+
   //Code Fold
   { "keys": ["ctrl+`"], "command": "unfold_all" },
   { "keys": ["ctrl+1"], "command": "fold_by_level", "args": {"level": 1} },
@@ -48,6 +54,7 @@
   { "keys": ["ctrl+["], "command": "fold" },
   { "keys": ["ctrl+]"], "command": "unfold" },
   { "keys": ["ctrl+shift+]"], "command": "unfold_all" },
+  { "keys": ["ctrl+k", "ctrl+a"], "command": "fold_tag_attributes" },
 
   //Other
   { "keys": ["alt+s"], "command": "switch_between_code_and_test", "args": {"split_view": false}},
