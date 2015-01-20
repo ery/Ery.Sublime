@@ -7,8 +7,15 @@
     "*.sublime-workspace",
     "*.sqlite3",
     "tags",
-    ".tags",
-    "*.log"
+    ".tags"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".zeus.sock",
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS"
   ],
   "ignored_packages":
   [
