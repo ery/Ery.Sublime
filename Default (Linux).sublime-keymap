@@ -58,6 +58,7 @@
 
   //Rails Related Files
   { "keys": ["ctrl+super+p"], "command": "rails_related_files", "args": {"index": -1 }},
+  { "keys": ["ctrl+alt+o"], "command": "rails_related_files", "args": {"index": -1 }},
 
   //Other
   { "keys": ["alt+s"], "command": "switch_between_code_and_test", "args": {"split_view": false}},
