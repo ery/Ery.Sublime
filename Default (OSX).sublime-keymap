@@ -7,7 +7,7 @@
 
   //CTags
   { "keys": ["ctrl+alt+]"], "command": "navigate_to_definition" },
-  { "keys": ["ctrl+alt+["], "command": "jump_prev" },
+  { "keys": ["ctrl+alt+["], "command": "jump_back" },
 
   //Find
   { "keys": ["f4"], "command": "next_result" },
@@ -48,17 +48,6 @@
   { "keys": ["ctrl+["], "command": "fold" },
   { "keys": ["ctrl+]"], "command": "unfold" },
   { "keys": ["ctrl+shift+]"], "command": "unfold_all" },
-  { "keys": ["ctrl+k", "ctrl+a"], "command": "fold_tag_attributes" },
-
-  //Rails Related Files
-  { "keys": ["ctrl+super+p"], "command": "rails_related_files", "args": {"index": -1 }},
-  { "keys": ["ctrl+alt+o"], "command": "rails_related_files", "args": {"index": -1 }},
-
-  //Case
-  { "keys": ["ctrl+k", "ctrl+u"], "command": "upper_case" },
-  { "keys": ["ctrl+k", "ctrl+l"], "command": "lower_case" },
-  { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
-  { "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
 
   //Other
   { "keys": ["alt+s"], "command": "switch_between_code_and_test", "args": {"split_view": false}},
@@ -69,4 +58,5 @@
   { "keys": ["ctrl+enter"], "command": "input_helper" },
   { "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
   { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" }
+
 ]
