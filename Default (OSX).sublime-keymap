@@ -4,6 +4,7 @@
   { "keys": ["super+shift+c"], "command": "copy_path" },
   { "keys": ["super+shift+s"], "command": "save_all" },
   { "keys": ["super+shift+w"], "command": "close_all" },
+  { "keys": ["super+shift+k"], "command": "close_others" },
 
   //CTags
   { "keys": ["super+alt+]"], "command": "navigate_to_definition" },
