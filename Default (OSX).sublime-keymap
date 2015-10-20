@@ -49,6 +49,12 @@
   { "keys": ["super+]"], "command": "unfold" },
   { "keys": ["super+shift+]"], "command": "unfold_all" },
 
+  //Case
+  { "keys": ["super+k", "super+u"], "command": "upper_case" },
+  { "keys": ["super+k", "super+l"], "command": "lower_case" },
+  { "keys": ["super+k", "super+t"], "command": "title_case" },
+  { "keys": ["super+k", "super+s"], "command": "swap_case" },
+
   //Other
   { "keys": ["alt+s"], "command": "switch_between_code_and_test", "args": {"split_view": false}},
   { "keys": ["super+t"], "command": "reindent" },
