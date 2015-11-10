@@ -48,7 +48,6 @@
   { "keys": ["super+0"], "command": "unfold_all" },
   { "keys": ["super+["], "command": "fold" },
   { "keys": ["super+]"], "command": "unfold" },
-  { "keys": ["super+shift+]"], "command": "unfold_all" },
 
   //Case
   { "keys": ["super+k", "super+u"], "command": "upper_case" },
