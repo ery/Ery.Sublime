@@ -1,0 +1,19 @@
+// Place your settings in the file "User/CTags.sublime-settings", which
+// overrides the settings in here.
+{
+    // Path to ctags executable.
+    //
+    // Alter this value if your ctags command is not in the PATH, or if using
+    // a different version of ctags to that in the path (i.e. for OSX).
+    //
+    // NOTE: You *should not* place entire commands here. These commands are
+    // built automatically using the values below. For example, this is OK:
+    //
+    //     "command": "/usr/bin/ctags"
+    //
+    // This, on the other hand, won't work!
+    //
+    //     "command": "ctags -R -f .tags --exclude=some/path"
+    //
+    "command": "ctags --languages=\"Ruby\" -f .tags -R",
+}
