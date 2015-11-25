@@ -70,6 +70,6 @@
   { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
   //Plugins
-  { "keys": ["super+t"], "command": "add_time" },
+  { "keys": ["super+alt+t"], "command": "add_time" },
   { "keys": ["super+shift+k"], "command": "close_others" },
 ]
