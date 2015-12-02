@@ -68,6 +68,10 @@
   { "keys": ["super+alt+a"], "command": "alignment" },
   { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
   { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+  { "keys": ["alt+super+up"], "command": "swap_line_up" },
+  { "keys": ["alt+super+down"], "command": "swap_line_down" },
 
   //Plugins
   { "keys": ["super+alt+t"], "command": "add_time" },
