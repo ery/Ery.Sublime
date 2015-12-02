@@ -60,9 +60,9 @@
   { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
   { "keys": ["alt+super+up"], "command": "swap_line_up" },
   { "keys": ["alt+super+down"], "command": "swap_line_down" },
-  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["alt+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["super+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["alt+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["super+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
   //Other
   { "keys": ["alt+s"], "command": "switch_between_code_and_test", "args": {"split_view": false}},
