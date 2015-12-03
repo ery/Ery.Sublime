@@ -46,8 +46,8 @@
   { "keys": ["alt+8"], "command": "fold_by_level", "args": {"level": 8} },
   { "keys": ["alt+9"], "command": "fold_by_level", "args": {"level": 9} },
   { "keys": ["alt+0"], "command": "unfold_all" },
-  { "keys": ["alt+["], "command": "fold" },
-  { "keys": ["alt+]"], "command": "unfold" },
+  { "keys": ["alt+-"], "command": "fold" },
+  { "keys": ["alt+="], "command": "unfold" },
 
   //Case
   { "keys": ["super+k", "super+u"], "command": "upper_case" },
