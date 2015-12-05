@@ -2,6 +2,7 @@
   //File
   { "keys": ["super+shift+o"], "command": "reopen_last_file" },
   { "keys": ["super+shift+c"], "command": "copy_path" },
+  { "keys": ["ctrl+c"], "command": "copy_path" },
   { "keys": ["super+shift+s"], "command": "save_all" },
   { "keys": ["super+shift+w"], "command": "close_all" },
 
