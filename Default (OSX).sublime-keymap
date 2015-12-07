@@ -74,9 +74,13 @@
   { "keys": ["super+enter"], "command": "input_helper" },
   { "keys": ["super+alt+m"], "command": "markdown_preview" },
   { "keys": ["super+shift+l"], "command": "split_selection_into_lines" },
-  { "keys": ["f3"], "command": "find_next" },
-  { "keys": ["shift+f3"], "command": "find_prev" },
-  { "keys": ["f2"], "command": "find_under_expand" },
+
+  { "keys": ["f3"], "command": "find_under" },
+  { "keys": ["shift+f3"], "command": "find_under_prev" },
+
+  { "keys": ["super+f3"], "command": "find_next" },
+  { "keys": ["super+shift+f3"], "command": "find_prev" },
+
   { "keys": ["super+alt+a"], "command": "alignment" },
   { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
   { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
