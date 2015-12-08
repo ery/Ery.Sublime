@@ -18,6 +18,8 @@
   { "keys": ["ctrl+alt+["], "command": "jump_prev" },
 
   //Find
+  { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+  { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
   { "keys": ["f3"], "command": "find_under" },
   { "keys": ["shift+f3"], "command": "find_under_prev" },
   { "keys": ["ctrl+f3"], "command": "find_next" },
@@ -84,6 +86,7 @@
 
   //Plugins
   { "keys": ["ctrl+shift+t"], "command": "add_time" },
+  { "keys": ["ctrl+alt+t"], "command": "open_terminal" },
 
   //Other
   { "keys": ["ctrl+t"], "command": "reindent" },
