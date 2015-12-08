@@ -2,12 +2,14 @@
   //Base
   { "keys": ["ctrl+z"], "command": "undo"},
   { "keys": ["ctrl+y"], "command": "redo"},
+  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}},
+  { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
 
   //File
   { "keys": ["ctrl+s"], "command": "save"},
   { "keys": ["ctrl+shift+s"], "command": "save_all"},
   { "keys": ["ctrl+w"], "command": "close" },
-  { "keys": ["ctrl+shift+w"], "command": "close_all" },
+  { "keys": ["ctrl+shift+w"], "command": "close_others" },
   { "keys": ["ctrl+shift+o"], "command": "reopen_last_file" },
   { "keys": ["ctrl+shift+c"], "command": "copy_path" },
 
@@ -81,8 +83,7 @@
   { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
 
   //Plugins
-  { "keys": ["ctrl+alt+t"], "command": "add_time" },
-  { "keys": ["ctrl+shift+k"], "command": "close_others" },
+  { "keys": ["ctrl+shift+t"], "command": "add_time" },
 
   //Other
   { "keys": ["ctrl+t"], "command": "reindent" },
