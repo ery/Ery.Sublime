@@ -1,5 +1,6 @@
 [
   //Base
+  { "keys": ["ctrl+a"], "command": "select_all"},
   { "keys": ["ctrl+z"], "command": "undo"},
   { "keys": ["ctrl+y"], "command": "redo"},
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}},
