@@ -85,6 +85,12 @@
   { "keys": ["ctrl+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true } },
   { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
 
+  //Scroll
+  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+  { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+  { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+
   //Plugins
   { "keys": ["ctrl+shift+t"], "command": "add_time" },
   { "keys": ["ctrl+alt+t"], "command": "open_terminal" },
