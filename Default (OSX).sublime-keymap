@@ -1,5 +1,6 @@
 [
   //Base
+  { "keys": ["ctrl+n"], "command": "new_file"},
   { "keys": ["ctrl+a"], "command": "select_all"},
   { "keys": ["ctrl+z"], "command": "undo"},
   { "keys": ["ctrl+y"], "command": "redo"},
