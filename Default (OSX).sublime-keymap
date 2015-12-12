@@ -22,12 +22,12 @@
   //Find
   { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
   { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-  { "keys": ["f3"], "command": "find_under" },
+  { "keys": ["f8"], "command": "find_under" },
   { "keys": ["shift+f3"], "command": "find_under_prev" },
   { "keys": ["ctrl+shift+f3"], "command": "find_prev" },
   { "keys": ["f4"], "command": "next_result" },
   { "keys": ["shift+f4"], "command": "prev_result" },
-  { "keys": ["ctrl+f4"], "command": "find_next" },
+  { "keys": ["f3"], "command": "find_next" },
 
   //Bookmark
   { "keys": ["f5"], "command": "toggle_bookmark" },
