@@ -70,10 +70,8 @@
   { "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
 
   //Lines
-  { "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol","extend": false} },
-  { "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol","extend": false} },
-  { "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol","extend": true} },
-  { "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol","extend": true} },
+  { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
   { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
@@ -82,6 +80,12 @@
   { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
   //Move
+  { "keys": ["ctrl+up"], "command":"move_to", "args": {"to": "bof","extend": false} },
+  { "keys": ["ctrl+down"], "command":"move_to", "args": {"to": "eof","extend": false} },
+  { "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol","extend": false} },
+  { "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol","extend": false} },
+  { "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol","extend": true} },
+  { "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol","extend": true} },
   { "keys": ["home"], "command":"move_to", "args": {"to": "bol","extend": false} },
   { "keys": ["end"], "command":"move_to", "args": {"to": "eol","extend": false} },
   { "keys": ["shift+home"], "command":"move_to", "args": {"to": "bol","extend": true} },
@@ -92,8 +96,6 @@
   { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
 
   //Scroll
-  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
-  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
   { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
   { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
@@ -103,8 +105,6 @@
 
   //Other
   { "keys": ["ctrl+t"], "command": "reindent" },
-  { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
-  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
   { "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
   { "keys": ["ctrl+alt+a"], "command": "alignment" },
 ]
