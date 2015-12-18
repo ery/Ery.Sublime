@@ -8,7 +8,6 @@
   { "keys": ["ctrl+/"], "command": "toggle_comment", "args": {"block": false}},
   { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
 
-
   //File
   { "keys": ["ctrl+s"], "command": "save"},
   { "keys": ["ctrl+shift+s"], "command": "save_all"},
@@ -74,16 +73,14 @@
   //Lines
   { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
-  { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+  { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["alt+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
   //Move
-  { "keys": ["ctrl+up"], "command":"move_to", "args": {"to": "bof","extend": false} },
-  { "keys": ["ctrl+down"], "command":"move_to", "args": {"to": "eof","extend": false} },
   { "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol","extend": false} },
   { "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol","extend": false} },
   { "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol","extend": true} },
@@ -98,10 +95,8 @@
   { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
 
   //Scroll
-  { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
-  { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
-  { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
-  { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
   //Plugins
   { "keys": ["ctrl+shift+t"], "command": "add_time" },
