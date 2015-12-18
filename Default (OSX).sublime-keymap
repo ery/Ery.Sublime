@@ -5,7 +5,9 @@
   { "keys": ["ctrl+z"], "command": "undo"},
   { "keys": ["ctrl+y"], "command": "redo"},
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}},
+  { "keys": ["ctrl+/"], "command": "toggle_comment", "args": {"block": false}},
   { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
+
 
   //File
   { "keys": ["ctrl+s"], "command": "save"},
@@ -72,8 +74,8 @@
   //Lines
   { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
-  { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
+  { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["alt+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
@@ -98,6 +100,8 @@
   //Scroll
   { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
   { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+  { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+  { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
   //Plugins
   { "keys": ["ctrl+shift+t"], "command": "add_time" },
