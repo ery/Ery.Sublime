@@ -73,16 +73,11 @@
   //Lines
   { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
-  { "keys": ["ctrl+alt+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+alt+down"], "command": "swap_line_down" },
+  { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
   { "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["alt+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-  { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
   //Move
-  { "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol","extend": false} },
-  { "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol","extend": false} },
   { "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol","extend": true} },
   { "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol","extend": true} },
   { "keys": ["home"], "command":"move_to", "args": {"to": "bol","extend": false} },
