@@ -15,5 +15,5 @@
     //
     //     "command": "ctags -R -f .tags --exclude=some/path"
     //
-    "command": "ctags --languages=\"Ruby\" -f .tags -R",
+    "command": "/usr/local/bin/ctags --languages=\"Ruby\" -f .tags -R",
 }
