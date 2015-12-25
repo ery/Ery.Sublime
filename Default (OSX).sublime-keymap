@@ -1,9 +1,13 @@
 [
   //Base
+  { "keys": ["super+x"], "command": "cut" },
+  { "keys": ["super+c"], "command": "copy" },
+  { "keys": ["super+v"], "command": "paste" },
   { "keys": ["super+n"], "command": "new_file"},
   { "keys": ["super+a"], "command": "select_all"},
   { "keys": ["super+z"], "command": "undo"},
   { "keys": ["super+y"], "command": "redo"},
+  { "keys": ["super+d"], "command": "find_under_expand" },
   { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}},
   { "keys": ["super+/"], "command": "toggle_comment", "args": {"block": false}},
   { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
@@ -11,6 +15,7 @@
   //File
   { "keys": ["super+s"], "command": "save"},
   { "keys": ["super+shift+s"], "command": "save_all"},
+  { "keys": ["super+alt+s"], "command": "prompt_save_as"},
   { "keys": ["super+w"], "command": "close" },
   { "keys": ["super+shift+w"], "command": "close_others" },
   { "keys": ["super+shift+o"], "command": "reopen_last_file" },
@@ -104,7 +109,7 @@
   { "keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
 
   //Plugins
-  { "keys": ["super+shift+t"], "command": "add_time" },
+  { "keys": ["alt+t"], "command": "add_time" },
   { "keys": ["super+alt+t"], "command": "open_terminal" },
 
   //Other
