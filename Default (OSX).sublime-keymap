@@ -11,6 +11,7 @@
   { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}},
   { "keys": ["super+/"], "command": "toggle_comment", "args": {"block": false}},
   { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
+  { "keys": ["super+shift+v"], "command": "paste_from_history" },
 
   //File
   { "keys": ["super+s"], "command": "save"},
@@ -111,6 +112,7 @@
   //Plugins
   { "keys": ["alt+t"], "command": "add_time" },
   { "keys": ["super+alt+t"], "command": "open_terminal" },
+  { "keys": ["super+alt+p"], "command": "related_files" },
 
   //Other
   { "keys": ["super+t"], "command": "reindent" },
