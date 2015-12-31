@@ -113,9 +113,11 @@
   { "keys": ["alt+t"], "command": "add_time" },
   { "keys": ["super+alt+t"], "command": "open_terminal" },
   { "keys": ["super+alt+p"], "command": "related_files" },
+  { "keys": ["super+alt+m"], "command": "markdown_preview" },
 
   //Other
   { "keys": ["super+t"], "command": "reindent" },
-  { "keys": ["super+alt+m"], "command": "markdown_preview" },
   { "keys": ["super+alt+a"], "command": "alignment" },
+  { "keys": ["super+ctrl+alt+p"], "command": "prompt_select_workspace" },
+
 ]
