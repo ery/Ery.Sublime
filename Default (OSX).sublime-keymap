@@ -105,6 +105,12 @@
   { "keys": ["super+alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
   { "keys": ["super+alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
+  //Group
+  { "keys": ["super+g", "left"], "command": "focus_neighboring_group"},
+  { "keys": ["super+g", "right"], "command": "focus_neighboring_group", "args": {"forward": false}},
+  { "keys": ["super+g", "super+left"], "command": "move_to_neighboring_group"},
+  { "keys": ["super+g", "super+right"], "command": "move_to_neighboring_group", "args": {"forward": false}},
+
   //Scroll
   { "keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
   { "keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
