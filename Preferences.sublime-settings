@@ -1,14 +1,14 @@
 {
-  "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
   "auto_complete": true,
+  "auto_complete_commit_on_tab": true,
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
   "draw_white_space": "all",
-  "file_exclude_patterns":
-  [
-    "*.sublime-workspace",
-    "*.sqlite3",
-    "tags",
-    ".tags"
-  ],
+  "font_size": 17,
+  "highlight_line": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false,
   "folder_exclude_patterns":
   [
     ".zeus.sock",
@@ -17,14 +17,40 @@
     ".hg",
     "CVS"
   ],
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.sublime-workspace",
+    ".tags_sorted_by_file",
+    "*.sublime-workspace",
+    "*.sqlite3",
+    "*tags",
+    "tags",
+    ".tags"
+  ],
   "ignored_packages":
   [
+    "All Autocomplete",
+    "IndentX",
+    "SideBarEnhancements",
     "Vintage"
-  ],
-  "tab_size": 2,
-  "font_size": 14.0,
-  "highlight_line": true,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": false
+  ]
 }
